@@ -9,24 +9,54 @@ import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
+import context_aware from '../assets/images/context_aware.png';
 import '../assets/styles/Project.scss';
-
+import ai_bone_age from '../assets/images/ai_bone_age.png';
+import olympics from '../assets/images/olympics_data.png';
+import hand from '../assets/images/hand_tracking.png';
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1>Projects</h1>
         <div className="projects-grid">
-            <div className="project">
+            {/* <div className="project">
                 <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
                 <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
-            </div>
+            </div> */}
+
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://github.com/Na-bee-n/Contextual-Spell-Checker-Nepali-/tree/note1" target="_blank" rel="noreferrer">
+                    <img src={context_aware} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <a href="https://github.com/Na-bee-n/Contextual-Spell-Checker-Nepali-/tree/note1" target="_blank" rel="noreferrer">
+                    <h2>Nepali Context-Aware Spell Tool</h2>
+                </a>
+                <p>Implemented a spell-checking tool for Nepali using confusion sets, fine-tuned NepBERTa, and context-aware correction.</p>
             </div>
+
+
+
             <div className="project">
+                <a href="https://huggingface.co/spaces/Nabeen/Ai_bone_age_prediction/tree/main" target="_blank" rel="noreferrer"><img src={ai_bone_age} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://huggingface.co/spaces/Nabeen/Ai_bone_age_prediction/tree/main" target="_blank" rel="noreferrer"><h2>AI Based Bone Age Prediction</h2></a>
+                <p>Developed an AI-based bone age prediction system using ResNet and InceptionV3 models of CNN for accurate age estimation.</p>
+            </div>
+
+            <div className="project">
+                <a href="https://www.datacamp.com/datalab/w/124f3ddf-8cb3-47c6-ae55-45d919481fde/edit" target="_blank" rel="noreferrer"><img src={olympics} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.datacamp.com/datalab/w/124f3ddf-8cb3-47c6-ae55-45d919481fde/edit" target="_blank" rel="noreferrer"><h2>Analyzing Olympics Data</h2></a>
+                <p>Performed cleaning, and then used the data to answer questions with interactive charts.</p>
+            </div>
+
+            <div className="project">
+                <a href="https://github.com/Na-bee-n/hand-tracking/tree/main" target="_blank" rel="noreferrer"><img src={hand} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Na-bee-n/hand-tracking/tree/main" target="_blank" rel="noreferrer"><h2>Hand Tracking</h2></a>
+                <p>Developed a real-time hand tracking system using OpenCV and MediaPipe.</p>
+            </div>
+
+
+            {/* <div className="project">
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
                 <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
@@ -65,7 +95,7 @@ function Project() {
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
                 <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+            </div> */}
         </div>
     </div>
     );

@@ -10,47 +10,67 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Achievements</h1>
         <VerticalTimeline>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="May 2024-Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Complete Data Science, Machine Learning, DL, NLP Bootcamp</h3>
+            <h4 className="vertical-timeline-element-subtitle">Udemy</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+
+            </p>
+          </VerticalTimelineElement>
+
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="August 2023 - March 2024"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Data Engineering</h3>
+            <h4 className="vertical-timeline-element-subtitle">Datacamp & Linkedn learning</h4>
+            <p>
+              <p>- Linear Algebra</p>
+              <p>- Numpy, Pandas, Seaborn, Scikit-learn</p>
+              <p>- Probability & Statistics</p>
+              <p>- Data Mining</p>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="January-July, 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Intermediate Spreadsheets</h3>
+            <h4 className="vertical-timeline-element-subtitle">Datacamp</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Data analysis, manipulations & Visualization on Excel.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="June 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">PCB Design and Fabrication</h3>
+            <h4 className="vertical-timeline-element-subtitle">IOE Thapathali Campus, Nepal</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Design a motor circuit using Proteus Software and Fabricated using Glossy paper.
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2020 - 2020"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
@@ -61,7 +81,25 @@ function Timeline() {
             <p>
               Automation, Data Governance, Statistical Analysis
             </p>
+          </VerticalTimelineElement> */}
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="7-8 Feb, 2020"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">National Level Mathematics Quiz</h3>
+            <h4 className="vertical-timeline-element-subtitle">Xavier International College, Kathmandu Nepal</h4>
+            <p>
+              Secured 4<sup>th</sup>position.
+            </p>
           </VerticalTimelineElement>
+
+
+
+
+
         </VerticalTimeline>
       </div>
     </div>
